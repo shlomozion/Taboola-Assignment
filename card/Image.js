@@ -8,6 +8,8 @@ export const Image = ([object]) => {
   element.alt = "image";
   element.className = "w-full h-full";
   element.draggable = false;
+
   imageContainer.appendChild(element);
+
   return imageContainer;
 };

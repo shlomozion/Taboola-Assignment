@@ -5,7 +5,7 @@ import { AddsWrapper } from "./wrapper/AddsWrapper.js";
 
 const elementContainer = document.getElementById("Ads");
 elementContainer.className =
-  " max-md:gap-1 max-md:p-2 md:w-[20%] md:h-[100vh] md:absolute md:right-0 md:overflow-y-scroll md:border";
+  "max-md:gap-1 max-md:p-2 md:w-[20%] md:h-[100vh] md:absolute md:right-0 md:overflow-y-scroll md:border";
 
 const addsContainer = document.createElement("div");
 addsContainer.className =
