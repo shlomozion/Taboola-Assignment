@@ -6,19 +6,19 @@ import { AddsWrapper } from "./wrapper/AddsWrapper.js";
 const elementContainer = document.getElementById("Ads");
 elementContainer.className = "element-container";
 
+elementContainer.appendChild(AddsWrapper());
+
 const addsContainer = document.createElement("div");
 addsContainer.className = "adds-container";
 
 const adsData = await TaboolaAPI();
 
-elementContainer.appendChild(AddsWrapper());
-
 adsData &&
-  adsData.forEach((add) => {
-    const { url } = add;
+  adsData.forEach((ad) => {
+    const { url } = ad;
 
     const link = OutboundLink(url);
-    const card = Card(add);
+    const card = Card(ad);
 
     link.appendChild(card);
 

@@ -6,7 +6,7 @@ export const Card = (item) => {
   const { branding, name, thumbnail } = item;
 
   const cardElement = document.createElement("div");
-  cardElement.className = "cardElement";
+  cardElement.className = "cardElement flex-column h-full p-5px";
 
   cardElement.appendChild(Image(thumbnail));
   cardElement.appendChild(Name(name));
