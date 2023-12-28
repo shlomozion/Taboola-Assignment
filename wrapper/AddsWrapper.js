@@ -14,7 +14,7 @@ export const AddsWrapper = () => {
   text.innerHTML = "by";
 
   const icon = document.createElement("img");
-  icon.src = "../assets/Taboola_Logo.png";
+  icon.src = "./assets/Taboola_Logo.png";
   icon.width = 50;
 
   section1.appendChild(label);
