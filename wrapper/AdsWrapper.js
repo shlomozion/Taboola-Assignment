@@ -1,4 +1,4 @@
-export const AddsWrapper = () => {
+const AdsWrapper = () => {
   const adsWrapper = document.createElement("div");
   adsWrapper.className = "ads-wrapper flex justify-between items-center";
 
@@ -46,3 +46,4 @@ export const AddsWrapper = () => {
 
   return adsWrapper;
 };
+export default AdsWrapper;

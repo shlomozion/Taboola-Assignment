@@ -1,15 +1,15 @@
-import { TaboolaAPI } from "./actions/TaboolaAPI.js";
-import { Card } from "./card/Card.js";
-import { OutboundLink } from "./card/OutboundLink.js";
-import { AddsWrapper } from "./wrapper/AddsWrapper.js";
+import TaboolaAPI from "./actions/TaboolaAPI.js";
+import Card from "./card/Card.js";
+import OutboundLink from "./card/OutboundLink.js";
+import AdsWrapper from "./wrapper/AdsWrapper.js";
 
 const elementContainer = document.getElementById("Ads");
 elementContainer.className = "element-container";
 
-elementContainer.appendChild(AddsWrapper());
+elementContainer.appendChild(AdsWrapper());
 
-const addsContainer = document.createElement("div");
-addsContainer.className = "adds-container";
+const adsContainer = document.createElement("div");
+adsContainer.className = "adds-container";
 
 const adsData = await TaboolaAPI();
 
@@ -22,6 +22,6 @@ adsData &&
 
     link.appendChild(card);
 
-    addsContainer.appendChild(link);
-    elementContainer.appendChild(addsContainer);
+    adsContainer.appendChild(link);
+    elementContainer.appendChild(adsContainer);
   });

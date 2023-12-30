@@ -1,4 +1,4 @@
-export const Image = ([object]) => {
+const Image = ([object]) => {
   const { url } = object;
   const element = document.createElement("img");
   element.src = url;
@@ -8,3 +8,4 @@ export const Image = ([object]) => {
 
   return element;
 };
+export default Image;
