@@ -12,6 +12,6 @@ To get started with the project, follow these steps:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/shlomozion/Taboola-Assignment.git
+   git clone https://github.com/shlomozion/Taboola-Assignment.git ./
 
 2. open the index.html in a local server    
