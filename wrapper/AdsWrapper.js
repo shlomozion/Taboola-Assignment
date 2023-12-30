@@ -46,4 +46,4 @@ const AdsWrapper = () => {
 
   return adsWrapper;
 };
-export default AdsWrapper;
+module.exports = AdsWrapper;

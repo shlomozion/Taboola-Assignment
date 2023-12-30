@@ -1,6 +1,6 @@
-import Image from "./Image.js";
-import Branding from "./Branding.js";
-import Name from "./Name.js";
+const Image = require("./Image.js");
+const Branding = require("./Branding.js");
+const Name = require("./Name.js");
 
 const Card = (item) => {
   const { branding, name, thumbnail } = item;
@@ -13,4 +13,4 @@ const Card = (item) => {
   cardElement.appendChild(Branding(branding));
   return cardElement;
 };
-export default Card;
+module.exports = Card;

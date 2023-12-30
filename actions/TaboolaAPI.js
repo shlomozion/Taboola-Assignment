@@ -10,4 +10,4 @@ const TaboolaAPI = async () => {
     console.log(error);
   }
 };
-export default TaboolaAPI;
+module.exports = TaboolaAPI;

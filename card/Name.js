@@ -5,4 +5,4 @@ const Name = (name) => {
 
   return element;
 };
-export default Name;
+module.exports = Name;

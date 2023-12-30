@@ -8,4 +8,4 @@ const Image = ([object]) => {
 
   return element;
 };
-export default Image;
+module.exports = Image;

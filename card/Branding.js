@@ -5,4 +5,4 @@ const Branding = (branding) => {
 
   return brand;
 };
-export default Branding;
+module.exports = Branding;

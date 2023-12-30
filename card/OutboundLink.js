@@ -5,4 +5,4 @@ const OutboundLink = (url) => {
   element.className = "flex";
   return element;
 };
-export default OutboundLink;
+module.exports = OutboundLink;
